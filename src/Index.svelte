@@ -1,10 +1,10 @@
 <script>
   export let d;
   export let fill = "currentColor";
-  export let stroke = "";
-  export let title = '';
+  export let stroke;
+  export let title;
 
-	let classProp = '';
+	let classProp;
 	export { classProp as class };
 </script>
 
