@@ -1,15 +1,14 @@
 {
   "name": "@peter-pakanun/svelte-icon",
   "version": "1.0.0",
-  "svelte": "src/Index.svelte",
-  "module": "index.mjs",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "svelte": "src/Icon.js",
   "description": "Simple Svelte Icon Component",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "prepublishOnly": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "src",
@@ -35,6 +34,7 @@
   "homepage": "https://github.com/peter-pakanun/svelte-icon#readme",
   "devDependencies": {
     "rollup": "^2.75.7",
+    "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^7.1.0",
     "svelte": "^3.48.0"

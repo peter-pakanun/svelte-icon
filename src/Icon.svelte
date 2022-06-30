@@ -12,10 +12,3 @@
   {#if title}<title>{title}</title>{/if}
   <path {fill} {stroke} {d} />
 </svg>
-
-<style>
-svg {
-  display: inline-block;
-  vertical-align: middle;
-}
-</style>
