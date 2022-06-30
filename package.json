@@ -1,5 +1,5 @@
 {
-  "name": "svelte-icon",
+  "name": "@peter-pakanun/svelte-icon",
   "version": "1.0.0",
   "svelte": "src/Index.svelte",
   "module": "index.mjs",

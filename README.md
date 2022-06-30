@@ -4,12 +4,12 @@ You can use this with [Material Design Icons](https://materialdesignicons.com/) 
 
 ## Usage
 ```
-npm i -D @mdi/js https://github.com/peter-pakanun/svelte-icon
+npm i -D @mdi/js @peter-pakanun/svelte-icon
 ```
 
 ```svelte
 <script>
-  import Icon from 'svelte-icon';
+  import Icon from '@peter-pakanun/svelte-icon';
   import { mdiAccount } from '@mdi/js';
 </script>
 
