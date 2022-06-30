@@ -1,0 +1,42 @@
+{
+  "name": "svelte-icon",
+  "version": "1.0.0",
+  "svelte": "src/Index.svelte",
+  "module": "index.mjs",
+  "main": "index.js",
+  "description": "Simple Svelte Icon Component",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter-pakanun/svelte-icon.git"
+  },
+  "keywords": [
+    "svelte",
+    "icon",
+    "svg",
+    "icon-component",
+    "tailwindcss"
+  ],
+  "author": "Peter Pakanun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peter-pakanun/svelte-icon/issues"
+  },
+  "homepage": "https://github.com/peter-pakanun/svelte-icon#readme",
+  "devDependencies": {
+    "rollup": "^2.75.7",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.48.0"
+  }
+}
