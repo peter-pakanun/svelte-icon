@@ -4,7 +4,7 @@
   export let stroke = undefined;
   export let title = undefined;
 
-  let classProp;
+  let classProp = undefined;
   export { classProp as class };
 </script>
 
