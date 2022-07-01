@@ -1,8 +1,8 @@
 <script>
   export let d;
   export let fill = "currentColor";
-  export let stroke;
-  export let title;
+  export let stroke = undefined;
+  export let title = undefined;
 
   let classProp;
   export { classProp as class };
